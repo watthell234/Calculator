@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LetstryAgain
+{
+    class DamCalculator
+    { 
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to your personal Calculator, Meghan!");
+
+            Console.Write("What number would you like to add and subtract?: ");
+            string numberAsAString = Console.ReadLine();
+            double number = Convert.ToDouble(numberAsAString);
+
+            Console.Write("Plus this/ Minus this: ");
+            string number2AsAString = Console.ReadLine();
+            double number2 = Convert.ToDouble(number2AsAString);
+
+            double sum = number + number2;
+            double subtract = number - number2;
+
+            Console.WriteLine("The sum of your numbers is: " + sum);
+            Console.WriteLine("The difference of your numbers is: " + subtract);
+
+            Console.ReadKey();
+        }
+
+    }
+}
