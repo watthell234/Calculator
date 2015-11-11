@@ -1,1 +1,1 @@
-# Calculator For zee GF (aaaaaaaaaaawww!)
+# Calculator for zee GF (aaaaaaaaaaawww!)
